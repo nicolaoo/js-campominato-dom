@@ -7,6 +7,10 @@
     
 }
 
+.bomb {
+    background-image: url("./kisspng-minesweeper-pro-bomba.jpg");
+}
+
 .color {
     background-color: crimson;
 }
