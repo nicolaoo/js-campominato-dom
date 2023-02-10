@@ -10,6 +10,9 @@ let btnElement = document.getElementById('start')
 console.log(numCelle, grigliaElement)
 
 btnElement.addEventListener('click', function ( ) {
+
+    grigliaElement.innerHTML = ' '
+
     for (let i = 1; i <= numCelle; i++){
     numCorrente = i
     let cellaElement = `<div class="cella" style = " width: calc(100% / ${numGriglie});" >${numCorrente}</div>`
